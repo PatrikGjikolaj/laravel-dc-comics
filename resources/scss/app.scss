@@ -1,0 +1,78 @@
+/* importo bootstrap dalla cartella node_modules usando l'alias settato in vite.config.js */
+@import "~bootstrap/scss/bootstrap";
+
+    .imgS {
+        width: 30px;
+        aspect-ratio: 1;
+    }
+
+    .bg_img {
+        background-image: url(/public/jumbotron.jpg);
+        height: 400px;
+    }
+
+    .fly_cnt {
+        position: relative;
+        height: 100%;
+    }
+
+    .fly_btn {
+        position: absolute;
+        top: 95%;
+    }
+
+    .bg_grey {
+        background-color: rgb(71, 71, 71);
+    }
+
+    .pic {
+        height: 90%;
+        width: 100%;
+    }
+
+    span {
+        font-size: 12px;
+    }
+
+
+    .footLinks a {
+        font-size: 12px;
+        background-color: #00000000;
+        color: grey;
+        text-decoration: none;
+    }
+
+    header a {
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        color: grey;
+    }
+
+    .bodyBg {
+        background-image: url(/public/dc-logo-bg.png);
+        min-height: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .bg_container_foot {
+        background-color: #303030;
+    }
+
+    button {
+        border-radius: 0;
+        color: white;
+    }
+
+    .bg_containerf {
+        background-image: url(/public/footer-bg.jpg);
+    }
+
+    .logo {
+      width: 50px;
+    }
+
+    .nav-item a:hover {
+      border-bottom: solid 1px;
+    }
