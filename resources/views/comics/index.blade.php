@@ -6,7 +6,7 @@
     <div class="row g-4">
         <div class="col">
             <div>
-                <a class="btn btn-primary" href="{{ route("Comics.create") }}">Aggiungi un nuovo prodotto</a>
+                <a class="btn btn-primary" href="{{ route("Comics.create") }}">Aggiungi un nuovo comic</a>
             </div>
         </div>
         <div>

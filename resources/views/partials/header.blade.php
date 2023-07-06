@@ -5,7 +5,7 @@
       <div class="col-2 py-2">
         <img class="logo" src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="Dc Logo">
       </div>
-      <div class="col-10">
+      {{-- <div class="col-10">
         <ul class="nav justify-content-end">
             @foreach ($links as $link)
             <li class="nav-item m-1">
@@ -13,7 +13,7 @@
             </li>
             @endforeach
         </ul>
-      </div>
+      </div> --}}
     </div>
   </div>
 </header>

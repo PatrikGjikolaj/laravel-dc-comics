@@ -5,11 +5,11 @@
             <div class="col-2 py-5">
                 <div class="list-group">
                     <span class="text-white fw-bold pb-3">DC COMICS</span>
-                    @foreach ($links as $link)
+                    {{-- @foreach ($links as $link)
                     <div class="text-start footLinks">
                             <a class="border-0 text-start p-0" href="{{ $link['link'] }}">{{ $link['link'] }}</a>
                     </div>
-                        @endforeach
+                        @endforeach --}}
                     <span class="text-white fw-bold py-3">SHOP</span>
                     <div class="footLinks">
                         <a href="" class="border-0 text-start p-0">Shop Dc</a>

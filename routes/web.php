@@ -21,8 +21,8 @@ Route::get('/', function () {
     return view('welcome', compact('links','foto'));
 });
 
-// Route::get('/', [ComicsController::class, "index"])->name("home");
+Route::get('Comics/list', [ComicsController::class, "index"])->name("home");
 
-Route::get("comics/create", [ComicsController::class, "create"]);
+Route::get("Comics/create", [ComicsController::class, "create"]);
 
 Route::resource("Comics", ComicsController::class);

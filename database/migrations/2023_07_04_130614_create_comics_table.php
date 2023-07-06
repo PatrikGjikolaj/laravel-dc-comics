@@ -22,6 +22,8 @@ return new class extends Migration
             $table->string("thumb")->nullable();
             $table->string("type", 20);
             $table->string("price", 20);
+            $table->string("updated_at", 30);
+            $table->string("created_at", 30);
         });
     }
 
